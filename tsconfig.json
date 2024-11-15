@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",                // Supports Node.js's ES Module
+    "moduleResolution": "NodeNext",      // Ensures Node.js-compatible module resolution
+    "target": "ESNext",                  // Use the latest ECMAScript version
+    "baseUrl": "src",                    // Module resolution base path
+    "outDir": "dist",                    // Output folder for transpiled code
+    "sourceMap": true,                   // Enable source map generation for debugging
+    "noImplicitAny": true,               // Disallow `any` type
+    "esModuleInterop": true,             // Interop between CommonJS and ESM modules
+    "resolveJsonModule": true,           // Allow importing JSON files as modules
+    "skipLibCheck": true                 // Skip type checking of declaration files
+  },
+  "include": ["src/**/*"]                // Includes all files under "src"
+}

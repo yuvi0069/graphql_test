@@ -1,0 +1,57 @@
+{
+  "name": "rent-payment-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon src/index.ts",
+    "start": "nodemon",
+
+    "build": "tsc"
+  },
+  "engines": {"node": "20.18.0"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/ioredis": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/nodemon": "^1.19.6",
+    "@types/qs": "^6.9.11",
+    "@types/uuid": "^9.0.8",
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.6.6",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "bullmq": "^5.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.21.1",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.6.0",
+    "graphql": "^15.9.0",
+    "graphql-upload": "^12.0.0",
+   
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "redis": "^4.7.0",
+    "stripe": "^17.2.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/graphql-upload": "^8.0.12",
+   
+    "@types/multer": "^1.4.12",
+    "@types/node": "^20.11.6",
+    "@types/pg": "^8.11.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,18 @@
+node_modules/
+.vscode/chrome/
+coverage
+uploads/
+src/GraphQlApi/redis
+# for JetBrains IDEs
+.idea/
+.env
+# for developers to store files in that shouldn't be committed
+local/
+
+lerna-debug.log
+npm-debug.log
+.history
+.eslintcache
+
+dist/ 
+
