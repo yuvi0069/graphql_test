@@ -28,7 +28,7 @@ import { saveImageToFirebase } from "../helpers/function";
 import { sendApplicationEmail } from "../../email/index";
 
 // import Stripe from 'stripe';
-// const stripe = new Stripe("sk_test_51QF8pMGVR3TEoY4WTMGiRC87vcluSFXpMBqJwoF6G9uF68Dc1qpD5se1bI5aE8irx2VW95sC7Lqujis2QawAUAUF00awxR4OfG");
+
 export const testingApi={
   type:new GraphQLObjectType({
     name:"Testresponse",
